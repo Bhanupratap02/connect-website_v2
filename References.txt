@@ -1,0 +1,13 @@
+** Similar Websites
+	 
+
+
+
+**For editing preloader : 
+	https://app.lottiefiles.com/animation/0d0aed34-030e-4673-b264-f6cdcdaca1ed?channel=web&source=public-animation&panel=download
+	**Asset link :
+	https://lottie.host/3e580b11-1de2-445b-bb9d-3a5dae528ff2/4hJKq6TBqj.json
+
+**Menu/ Navbar
+	https://react-component.github.io/menu/
+

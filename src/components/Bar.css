@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.bar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #ffd102;
+  color: black;
+  font-family: montserrat;
+  font-size: 18px;
+}
+
+.bar_content {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  width: 100%;
+  transform: translateX(100%);
+  animation: move 10s linear infinite;
+}
+
+.bar_item {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.bar_item img {
+  margin-right: 5px;
+}
+
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .bar {
+    padding: 15px 0;
+  }
+  
+  .bar_content {
+    font-size: 45px; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .bar {
+    padding: 10px 0;
+  }
+  
+  .bar_content {
+    font-size: 30px; /* Adjust font size for small screens */
+  }
+  
+  .bar_item {
+    margin: 0 5px;
+  }
+}
